@@ -18,9 +18,9 @@ jobs:
           ssh-keyscan 39.98.206.167 >> ~/.ssh/known_hosts
       - name: deploy # 自动发布
         run: |
-          ssh root@39.98.206.167 "
+          ssh root@39.98.206.167"
             #注意 服务器已经git clone
-            cd /root/myblog/imooc-320-server:
+            cd /root/myblog/imooc-320-server
             git checkout . ;
             git checkout main;
             git pull origin main # 重新下载最新的代码
