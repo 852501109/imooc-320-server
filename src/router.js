@@ -6,7 +6,7 @@ const ENV = process.env.NODE_ENV
 router.get('/api/test', async (ctx, next) => {
     ctx.body = {
         errno: 0,
-        msg: `koa2 test gitactionok , ENV: ${ENV}`
+        msg: `koa2 test gitactionok11在试一次 , ENV: ${ENV}`
     }
 })
 
