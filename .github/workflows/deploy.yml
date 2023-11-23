@@ -16,7 +16,6 @@ jobs:
           echo "${{secrets.MY_ID_RSA}}" > ~/.ssh
           chomd 600 ~/.ssh/id_rsa
           ssh-keyscan 39.98.206.167 >> ~/.ssh/known_hosts
-      - name: create a file # 创建一个文件
       - name: deploy # 自动发布
         run: |
           ssh root@39.98.206.167 "
