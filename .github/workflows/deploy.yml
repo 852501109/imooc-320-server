@@ -10,18 +10,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2 # 第三方的
-      - name: create a folder # 创建文件夹
-        run: mkdir test-folder
-      - name: print id_rsa
+      - name: set id_rsa
         run: |
-          echo "start..."
-          echo "${{secrets.MY_ID_RSA}}"
-          echo "end..."
+        mkdir -p ~/.ssh/
+        echo "${{secrets.MY_ID_RSA}}" > ~/.ssh
+        chomd 600 ~/.ssh/id_rsa
+        ssh-keyscan 39.98.206.167 >> ~/.ssh/known_hosts
       - name: create a file # 创建一个文件
+      - name: deploy # 自动发布
         run: |
-          cd test-folder
-          touch a.txt
-          echo "hello world" > a.txt
-          cat a.txt
-      - name: delete a file # 删除文件
-        run: rm -rf a.txt
+          ssh root@39.98.206.167 "
+            #注意 服务器已经git clone
+            cd /root/myblog/imooc-320-server:
+            git checkout . ;
+            git check out main;
+            git pull origin main # 重新下载最新的代码
+            # 重启服务
+            npm install;
+            npm run prd;
+          "
+      - name: delete id_rsa # 删除id_rsa
+        run: rm -rf ~/.ssh/id_rsa
+      
