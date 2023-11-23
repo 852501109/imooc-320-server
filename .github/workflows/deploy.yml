@@ -1,13 +1,10 @@
-name: Deploy myblog
+name: Deploy to Nginx Server
+
 on:
   push:
     branches:
       - main # 触发部署的分支
-  paths:
-    - ".github/workflows/*"
-    - "src/**"
-    - "bin/*"
-    - "package.json"
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
