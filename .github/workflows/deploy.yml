@@ -1,5 +1,4 @@
 name: Deploy myblog
-
 on:
   push:
     branches:
