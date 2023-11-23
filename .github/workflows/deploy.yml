@@ -1,4 +1,4 @@
-name: Deploy to Nginx Server
+name: Deploy blog
 
 on:
   push:
