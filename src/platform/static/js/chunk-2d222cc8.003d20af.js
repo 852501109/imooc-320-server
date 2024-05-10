@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d222cc8"],{cfc2:function(c,n,p){c.exports=p.p+"static/img/centerimg.62a71f3f.png"}}]);

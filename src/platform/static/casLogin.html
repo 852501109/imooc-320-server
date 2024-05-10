@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+    <meta http-equiv="expires" content="0">
+    <style>
+    </style>
+</head>
+<body>
+
+<div>
+
+</div>
+<script>
+    let ticket = location.search;
+    var ajax = new XMLHttpRequest();
+    var URLconf = getRootPathweb();
+    ajax.open('GET', URLconf + '/webkit/casLogin' + ticket);
+    ajax.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+    ajax.setRequestHeader('X-CSRF-TOKEN',sessionStorage.getItem('token'));
+    ajax.send();
+    ajax.onreadystatechange = function () {
+        if (ajax.readyState == 4 && ajax.status == 200 || ajax.status == 302) {
+            var headersaAdqlocation = ajax.getResponseHeader('adqlocation');
+            if (headersaAdqlocation) {
+                window.location.href = headersaAdqlocation
+            }
+        }
+    }
+
+    function getRootPathweb() {
+        var curWwwPath = window.document.location.href;
+        var pathName = window.document.location.pathname;
+        var pos = curWwwPath.indexOf(pathName);
+        var localhostPaht = curWwwPath.substring(0, pos);
+        return localhostPaht;
+    }
+</script>
+
+</body>
+</html>
