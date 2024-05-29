@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d21f830"],{d9af:function(n,p,o){n.exports=o.p+"static/img/block3_sign.d44ef668.png"}}]);

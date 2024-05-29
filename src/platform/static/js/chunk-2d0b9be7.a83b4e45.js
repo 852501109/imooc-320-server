@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d0b9be7"],{"33f7":function(n,p,i){n.exports=i.p+"static/img/yuanshuju-3-3.140b64a6.gif"}}]);

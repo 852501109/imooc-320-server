@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d20ede6"],{b0ce:function(c,n,p){c.exports=p.p+"static/img/right2.ccbaf0b1.png"}}]);

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d0de5ae"],{"84fb":function(n,p,c){n.exports=c.p+"static/img/block1_sign.7eab8f2c.png"}}]);

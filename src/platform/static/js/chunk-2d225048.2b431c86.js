@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d225048"],{e337:function(n,o,p){n.exports=p.p+"static/img/shangbao-2-3.2ed24dce.gif"}}]);

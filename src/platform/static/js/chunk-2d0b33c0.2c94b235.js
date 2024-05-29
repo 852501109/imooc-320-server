@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d0b33c0"],{2804:function(n,p,b){n.exports=b.p+"static/img/bg-1.91b91bea.png"}}]);

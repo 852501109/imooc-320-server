@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d0cc245"],{"4d54":function(n,t,c){"use strict";c.r(t);var o={data:function(){return{}},components:{},computed:{},mounted:function(){},methods:{}},u=c("2877"),e=Object(u.a)(o,(function(){return(0,this._self._c)("div")}),[],!1,null,"40f01416",null);t.default=e.exports}}]);

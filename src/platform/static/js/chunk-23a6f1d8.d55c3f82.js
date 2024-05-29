@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-23a6f1d8"],{"3e8f":function(n,c){},f458:function(n,c,f){f("3e8f").readdirSync("./svg/")}}]);

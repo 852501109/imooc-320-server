@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d216b0a"],{c414:function(n,p,c){n.exports=c.p+"static/img/boxcenter.6735e89e.png"}}]);

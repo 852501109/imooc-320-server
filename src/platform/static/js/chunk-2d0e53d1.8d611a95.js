@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d0e53d1"],{9444:function(n,p,c){n.exports=c.p+"static/img/renkou_title.02c60cf1.png"}}]);

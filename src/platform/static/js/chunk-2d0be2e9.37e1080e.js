@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d0be2e9"],{"2ebb":function(e,n,p){e.exports=p.p+"static/img/jiuye_title.44ebccfa.png"}}]);

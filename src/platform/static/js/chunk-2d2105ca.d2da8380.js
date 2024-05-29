@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d2105ca"],{b820:function(c,n,p){c.exports=p.p+"static/img/right_block1.5c77c6cb.png"}}]);

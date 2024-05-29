@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d0cef40"],{"623a":function(n,o,t){n.exports=t.p+"static/fonts/digital-7 (mono).054612f1.ttf"}}]);
