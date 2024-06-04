@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d0d3299"],{"5c1f":function(n,p,c){n.exports=c.p+"static/img/starflake1.71733d69.png"}}]);
