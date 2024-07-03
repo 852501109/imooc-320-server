@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d0d6d50"],{"73db":function(n,o,c){n.exports=c.p+"static/fonts/YeZiGongChangTangYingHei-2.1247ceac.ttf"}}]);

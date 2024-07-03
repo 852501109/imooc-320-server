@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d217c4d"],{c7ad:function(c,n,o){c.exports=o.p+"static/fonts/wryh.eb525dcb.ttf"}}]);

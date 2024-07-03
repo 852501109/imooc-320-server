@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d0c13b8"],{"44bd":function(n,t){function e(n,t){var e=document.getElementsByTagName("html")[0],o=document.documentElement.clientWidth;e.setAttribute("style","font-size:".concat(o/n*t,"px!important;"))}e(1920,16),window.onresize=function(){e(1920,16)}}}]);

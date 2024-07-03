@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d2183ec"],{c9bb:function(a,n,c){a.exports=c.p+"static/fonts/arial.fa3228aa.ttf"}}]);

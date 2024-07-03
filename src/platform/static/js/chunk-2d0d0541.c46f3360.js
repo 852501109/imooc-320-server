@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d0d0541"],{6809:function(t,n,e){"use strict";e.r(n),e.d(n,"getRem",(function(){return c}));var c=function(t,n){var e=document.getElementsByTagName("html")[0],c=document.documentElement.clientWidth;e.setAttribute("style","font-size:".concat(c/t*n,"px!important;"))}}}]);
