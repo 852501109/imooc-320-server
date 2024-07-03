@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["chunk-2d2293d5"],{dd32:function(n,p,c){n.exports=c.p+"static/img/process-iocn-6.6c1b9f27.png"}}]);

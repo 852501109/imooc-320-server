@@ -1,9 +1,4 @@
-/**
- * Copyright (c) Tiny Technologies, Inc. All rights reserved.
- * Licensed under the LGPL or a commercial license.
- * For LGPL see License.txt in the project root for license information.
- * For commercial licenses see https://www.tiny.cloud/
- */
+
 .tox,
 .tox *:not(svg) {
   background: transparent;
@@ -262,7 +257,6 @@ button::-moz-focus-inner {
   min-width: 36px;
 }
 .tox .tox-checkbox__input {
-  /* Hide from view but visible to screen readers */
   height: 1px;
   left: -10000px;
   overflow: hidden;
@@ -529,7 +523,6 @@ button::-moz-focus-inner {
   width: 6em;
 }
 .tox .tox-rgb-form input.tox-invalid {
-  /* Need !important to override Chrome's focus styling unfortunately */
   border: 1px solid red !important;
 }
 .tox .tox-rgb-form label {
@@ -1358,8 +1351,6 @@ body.tox-dialog__disable-scroll {
   width: 100%;
 }
 .tox {
-  /* stylelint-disable */
-  /* stylelint-enable */
 }
 .tox .tox-menu {
   background-color: #fff;
@@ -1895,7 +1886,6 @@ body.tox-dialog__disable-scroll {
 .tox .tox-tbtn--disabled:hover svg,
 .tox .tox-tbtn:disabled svg,
 .tox .tox-tbtn:disabled:hover svg {
-  /* stylelint-disable-line no-descending-specificity */
   fill: rgba(34, 47, 62, 0.5);
 }
 .tox .tox-tbtn:active > * {
@@ -2108,9 +2098,7 @@ body.tox-dialog__disable-scroll {
   display: flex;
   height: 525px;
 }
-/* stylelint-disable */
 .tox {
-  /* stylelint-enable */
 }
 .tox .tox-dialog-loading::before {
   background-color: rgba(0, 0, 0, 0.5);
